@@ -1,0 +1,20 @@
+.container2 {
+	.content2 {
+		display: flex;
+		justify-content: center;
+		// gap: 20px;
+		.content3 {
+			flex-direction: column;
+		}
+	}
+}
+
+.Counter {
+	.pi {
+		display: flex;
+		justify-content: center;
+		.conten {
+			flex-direction: column;
+		}
+	}
+}

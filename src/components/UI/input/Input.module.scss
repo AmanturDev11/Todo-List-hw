@@ -1,0 +1,24 @@
+.Input {
+	margin-top: 20px;
+	.content {
+		display: flex;
+		justify-content: center;
+		.con {
+			flex-direction: column;
+			input {
+				width: 250px;
+				height: 30px;
+				input:hover {
+					background: linear-gradient(
+						90deg,
+						rgba(159, 116, 55, 1) 0%,
+						rgba(227, 210, 147, 1) 50%,
+						rgba(227, 210, 147, 1) 100%
+					);
+				}
+
+				// background: linear-gradient(30deg red blue);
+			}
+		}
+	}
+}
